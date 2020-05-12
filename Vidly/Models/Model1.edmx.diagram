@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="bfb4032d74fa4a3ca2a4bd7a3aa75858" Name="Diagram1">
+        <EntityTypeShape EntityType="VidlyModel.customer" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="VidlyModel.genre" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="VidlyModel.MembershipType" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="VidlyModel.Movie" Width="1.5" PointX="3" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="VidlyModel.Rental" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="VidlyModel.FK_Customer_id" ManuallyRouted="false" />
+        <AssociationConnector Association="VidlyModel.fk_MembershipTypeId" ManuallyRouted="false" />
+        <AssociationConnector Association="VidlyModel.Fk_GenreID" ManuallyRouted="false" />
+        <AssociationConnector Association="VidlyModel.FK_Movie_Id" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
